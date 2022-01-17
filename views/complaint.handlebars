@@ -1,0 +1,116 @@
+{{!-- <form method="post" action="/registerComplaint">
+
+    <h2>Register a Complaint</h2>
+    <div class="form-group">
+        <label>Name</label>
+        <input class="form-control" type="text" name="name" placeholder="Name" >
+    </div>
+    <div class="form-group">
+        <label>Email</label>
+        <input class="form-control" type="email" name="email" placeholder="Email">
+    </div>
+    <div class="form-group">
+        <label>Contact Number</label>
+        <input class="form-control" type="text" name="contact" placeholder="Phone Number">
+    </div>
+    <div class="form-group">
+        <label>Description</label>
+        <textarea type="text" class="form-control" name="desc" cols="30" rows="10" placeholder="Enter the Description"></textarea>
+    </div>
+    <button class="btn btn-success" type="submit">Submit Complaint</button>
+    <br>
+    <br>
+    Wanna change your mind? <a class="btn btn-warning btn-sm" href="/">Back</a>
+    <br>
+    <br>
+
+</form> --}}
+
+
+<header id="header" class="header fixed-top" style="background-color: snow;">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="/" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.png" alt="">
+        <span>PSG iTECH Complaint System</span>
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="/login">Login</a></li>
+          <li><a class="nav-link scrollto" href="/register">Register</a></li>
+          
+          
+          
+          
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+
+
+
+<div class="page-wrapper bg-gra-03 p-t-45 p-b-50">
+        <div class="wrapper wrapper--w790">
+            <div class="card card-5" style="margin-top: 70px;">
+                <div class="card-heading">
+                    <h2 class="title">Register a Complaint</h2>
+                </div>
+                <div class="card-body">
+                    <form method="POST" action="/registerComplaint">
+                        <div class="form-row m-b-55">
+                            <div class="name">Name</div>
+                            <div class="value">
+                                <div class="row row-space">
+                                    <div class="col-10">
+                                        <div class="input-group-desc">
+                                            <input class="input--style-5" type="text" name="name" placeholder="Name">
+                                            <label class="label--desc"></label>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="name">Email</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input--style-5" type="email" name="email" placeholder="Email">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">Contact Number</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input--style-5" type="text" name="contact" placeholder="Phone Number">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">Description</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <textarea type="text" class="input--style-5" name="desc" cols="55" rows="10" placeholder="Enter the Description"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn btn-success" type="submit">Submit Complaint</button>
+                        <br>
+                        <br>
+                        Wanna change your mind? <a class="btn btn-warning btn-sm" href="/">Back</a>
+                        <br>
+                        <br>
+                        
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+</div>
